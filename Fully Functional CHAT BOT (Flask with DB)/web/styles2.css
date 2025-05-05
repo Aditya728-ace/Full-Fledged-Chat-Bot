@@ -1,0 +1,69 @@
+/*MAIN BACKGROUND*/
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+ /* LOG IN WALA BOX*/
+.login-container {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #00ffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    margin: 10px 0;
+    border: 2px solid #00ffff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00ffff; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ffff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #0a1d37; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00b7b7;
+}
+
+#message {
+    margin-top: 15px;
+    color: #ff4d4d; 
+    font-size: 14px;
+}
